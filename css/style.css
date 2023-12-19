@@ -1,0 +1,42 @@
+/* Estilos generales para el cuerpo */
+body {
+  font-family: Arial, sans-serif; /* Tipo de fuente para el cuerpo */
+  text-align: center; /* Centra el texto horizontalmente */
+  background-color: #87CEEB; /* Color de fondo para el día */
+  transition: background-color 1s ease; /* Transición suave del cambio de color de fondo */
+  margin: 0; /* Elimina márgenes predeterminados */
+  padding: 20px; /* Relleno alrededor del contenido principal */
+  box-sizing: border-box; /* Evita que el relleno aumente el tamaño total del elemento */
+}
+
+/* Estilos para el encabezado principal */
+h1 {
+  margin-bottom: 20px; /* Margen inferior para separar del contenido siguiente */
+}
+
+/* Estilos para inputs y botones */
+input, button {
+  margin-bottom: 10px; /* Margen inferior para separar elementos */
+}
+
+/* Estilos específicos para el elemento con ID 'clima-info' */
+#clima-info {
+  margin-top: 20px; /* Margen superior para separar del contenido anterior */
+  color: white; /* Texto en color blanco */
+}
+
+/* Estilos específicos para el elemento con ID 'imagen-clima' */
+#imagen-clima {
+  margin-top: 20px; /* Margen superior para separar del contenido anterior */
+  max-width: 100%; /* Establece el ancho máximo del elemento al 100% */
+}
+
+/* Estilo para el fondo durante el día */
+.fondo-dia {
+  background-color: #87CEEB; /* Azul claro para representar el día */
+}
+
+/* Estilo para el fondo durante la noche */
+.fondo-noche {
+  background-color: #191970; /* Azul oscuro para representar la noche */
+}

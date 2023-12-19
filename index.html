@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"> <!-- Configuración del conjunto de caracteres -->
+  <title>App de Clima</title> <!-- Título de la página -->
+  <link rel="stylesheet" href="./css/style.css"> <!-- Enlace al archivo de estilos externo -->
+</head>
+<body>
+
+  <h1>Consulta del Clima</h1> <!-- Encabezado principal -->
+
+  <label for="inputCiudad">Ciudad:</label> <!-- Etiqueta para el input -->
+  <input type="text" id="inputCiudad" placeholder="Ingresa la ciudad"> <!-- Input para ingresar la ciudad -->
+
+  <button onclick="buscarClima()">Consultar Clima</button> <!-- Botón que llama a la función 'buscarClima' al hacer clic -->
+
+  <div id="clima-info"></div> <!-- Contenedor para mostrar información del clima -->
+  <img id="imagen-clima" src="./imagenes/Imagen_Clima.png" alt="Icono del clima"> <!-- Imagen para representar el clima -->
+
+  <script src="script.js"></script> <!-- Enlace al archivo de script externo -->
+</body>
+</html>
